@@ -1,0 +1,14 @@
+{
+  "servers": [
+    {
+      "type": "static",
+      "port": 8080,
+      "dir": "html"
+    },
+    {
+      "type": "proxy",
+      "port": 8081,
+      "target": "http://localhost:8080"
+    }
+  ]
+}
